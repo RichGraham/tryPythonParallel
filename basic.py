@@ -8,7 +8,7 @@ foundMultiprocess =  multiprocess_spec is not None
 if( foundMultiprocess ):
     import multiprocess as mp    
 else:
-    import multiprocessor as mp    
+    import multiprocessing as mp    
 
 
 class someParams:
